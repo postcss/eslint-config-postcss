@@ -1,5 +1,5 @@
 module.exports = {
-    'extends': './es5.js',
+    'extends': 'eslint-config-postcss/es5',
     'rules':   {
         'prefer-arrow-callback': [2],
         'no-dupe-class-members': [2],
