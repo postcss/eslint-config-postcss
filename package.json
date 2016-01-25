@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-postcss",
+  "version": "1.0.0",
+  "description": "An ESLint shareable config for postcss and plugins",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "es5.js"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/postcss/eslint-config-postcss.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "postcss"
+  ],
+  "author": "Bogdan Chadkin <trysound@yandex.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^1.10.3"
+  },
+  "eslintConfig": {
+    "extends": "./index.js",
+    "rules": {
+      "quote-props": [2, "always"],
+      "key-spacing": [2, { "align": "value" }]
+    }
+  }
+}
