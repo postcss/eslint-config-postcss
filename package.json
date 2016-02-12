@@ -23,7 +23,7 @@
   "author": "Bogdan Chadkin <trysound@yandex.ru>",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^1.10.3"
+    "eslint": "^2.0.0"
   },
   "eslintConfig": {
     "extends": "./es5.js",

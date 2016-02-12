@@ -7,7 +7,6 @@ module.exports = {
         'no-irregular-whitespace':     [2],
         'no-unexpected-multiline':     [2],
         'no-multiple-empty-lines':     [2],
-        'space-return-throw-case':     [2],
         'no-constant-condition':       [2],
         'no-extra-boolean-cast':       [2],
         'no-inner-declarations':       [2],
@@ -36,6 +35,7 @@ module.exports = {
         'no-sparse-arrays':            [2],
         'no-throw-literal':            [2],
         'no-return-assign':            [2],
+        'keyword-spacing':             [2],
         'no-const-assign':             [2],
         'no-class-assign':             [2],
         'no-extra-parens':             [2],
@@ -52,7 +52,6 @@ module.exports = {
         'no-func-assign':              [2],
         'no-unreachable':              [2],
         'accessor-pairs':              [2],
-        'no-empty-label':              [2],
         'no-fallthrough':              [2],
         'no-path-concat':              [2],
         'no-new-require':              [2],
@@ -117,8 +116,8 @@ module.exports = {
         'semi':                        [2, 'always'],
         'yoda':                        [2, 'never']
     },
-    'ecmaFeatures': {
-        'modules': true
+    'parserOptions': {
+        'sourceType': 'module'
     },
     'env': {
         'node': true,
