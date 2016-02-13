@@ -10,10 +10,7 @@
   "scripts": {
     "test": "eslint ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/postcss/eslint-config-postcss.git"
-  },
+  "repository": "postcss/eslint-config-postcss",
   "keywords": [
     "eslint",
     "eslint-config",
