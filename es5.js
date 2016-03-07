@@ -10,7 +10,6 @@ module.exports = {
         'no-constant-condition':       [2],
         'no-extra-boolean-cast':       [2],
         'no-inner-declarations':       [2],
-        'no-this-before-super':        [2],
         'no-use-before-define':        [2],
         'no-array-constructor':        [2],
         'object-curly-spacing':        [2, 'always'],
@@ -27,7 +26,6 @@ module.exports = {
         'no-duplicate-case':           [2],
         'no-invalid-regexp':           [2],
         'no-negated-in-lhs':           [2],
-        'constructor-super':           [2],
         'no-nested-ternary':           [2],
         'no-extend-native':            [2],
         'block-scoped-var':            [2],
@@ -36,8 +34,6 @@ module.exports = {
         'no-throw-literal':            [2],
         'no-return-assign':            [2],
         'keyword-spacing':             [2],
-        'no-const-assign':             [2],
-        'no-class-assign':             [2],
         'no-extra-parens':             [2],
         'no-regex-spaces':             [2],
         'no-implied-eval':             [2],
@@ -63,8 +59,6 @@ module.exports = {
         'comma-spacing':               [2],
         'no-extra-semi':               [2],
         'no-extra-bind':               [2],
-        'arrow-spacing':               [2],
-        'prefer-spread':               [2],
         'no-new-object':               [2],
         'no-multi-str':                [2],
         'semi-spacing':                [2],
@@ -120,7 +114,6 @@ module.exports = {
         'sourceType': 'module'
     },
     'env': {
-        'node': true,
-        'es6':  true
+        'node': true
     }
 };
