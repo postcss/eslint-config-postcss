@@ -11,8 +11,5 @@ module.exports = {
         'arrow-spacing':         [2],
         'prefer-spread':         [2],
         'no-var':                [2]
-    },
-    'env': {
-        'es6': true
     }
 };
