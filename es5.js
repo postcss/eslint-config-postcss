@@ -113,6 +113,9 @@ module.exports = {
     'parserOptions': {
         'sourceType': 'module'
     },
+    'globals': {
+        'Promise': false
+    },
     'env': {
         'node': true
     }
