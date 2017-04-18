@@ -117,6 +117,7 @@ module.exports = {
         'Promise': false
     },
     'env': {
-        'node': true
+        'node': true,
+        'es6':  true
     }
 };
