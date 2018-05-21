@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-postcss",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "An ESLint shareable config for PostCSS and plugins",
   "main": "index.js",
   "files": [

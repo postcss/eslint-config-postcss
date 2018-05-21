@@ -1,6 +1,9 @@
 # Change Log
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 3.0.1
+* Fix peer dependencies.
+
 ## 3.0
 * Use Logux config as base.
 
