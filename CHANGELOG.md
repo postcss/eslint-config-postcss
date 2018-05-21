@@ -1,3 +1,6 @@
+## 3.0
+* Use Logux config as base.
+
 ## 2.0.2
 * Add `Promise` global to ES5 config (by Bogdan Chadkin).
 
