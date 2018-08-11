@@ -9,7 +9,7 @@ If you have any question about a rule or want to discuss about it, please open a
 ### Modern ES
 
 ```sh
-$ npm install --save-dev eslint-config-postcss eslint-config-logux eslint-config-standard eslint-plugin-promise eslint-plugin-jest eslint-plugin-node eslint-plugin-standard eslint-plugin-security eslint-plugin-import
+$ npm install --save-dev eslint-config-postcss eslint-config-logux eslint-config-standard eslint-plugin-promise eslint-plugin-jest eslint-plugin-node eslint-plugin-standard eslint-plugin-security eslint-plugin-import eslint-plugin-prefer-let
 ```
 
 Add to your eslint configuration (here, in `package.json`)
