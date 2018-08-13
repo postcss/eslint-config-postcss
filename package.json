@@ -20,7 +20,7 @@
   "license": "MIT",
   "peerDependencies": {
     "eslint": "^5.3.0",
-    "eslint-config-logux": "^24.0.4",
+    "eslint-config-logux": "^24.0.0",
     "eslint-config-standard": "^11.0.0",
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-jest": "^21.21.0",
