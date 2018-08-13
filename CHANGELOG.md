@@ -1,6 +1,9 @@
 # Change Log
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 3.0.6
+* Make `peerDependencies` auto-updatable.
+
 ## 3.0.5
 * Fix `peerDependencies`.
 
