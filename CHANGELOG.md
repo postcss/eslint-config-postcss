@@ -1,6 +1,9 @@
 # Change Log
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 3.0.4
+* Use Logux config 24.
+
 ## 3.0.3
 * Use `eslint-plugin-node` 7.
 
