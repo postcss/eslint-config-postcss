@@ -1,5 +1,5 @@
 module.exports = {
   extends: [
-    'eslint-config-logux/browser'
+    '@logux/eslint-config/browser'
   ]
 }
