@@ -1,6 +1,9 @@
 # Change Log
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 3.0.7
+* Use `@logux/eslint-config` instead of `eslint-config-logux`.
+
 ## 3.0.6
 * Make `peerDependencies` auto-updatable.
 
