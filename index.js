@@ -1,5 +1,5 @@
 module.exports = {
   extends: [
-    '@logux/eslint-config/node'
+    '@logux/eslint-config'
   ]
 }

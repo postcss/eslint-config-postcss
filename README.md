@@ -6,10 +6,10 @@ If you have any question about a rule or want to discuss about it, please open a
 
 ## Usage
 
-### Modern ES
+### Install
 
 ```sh
-$ npm install --save-dev eslint-config-postcss @logux/eslint-config eslint-config-standard eslint-plugin-promise eslint-plugin-jest eslint-plugin-node eslint-plugin-standard eslint-plugin-security eslint-plugin-import eslint-plugin-prefer-let
+$ npm install --save-dev eslint-config-postcss
 ```
 
 Add to your eslint configuration (here, in `package.json`)
@@ -18,22 +18,6 @@ Add to your eslint configuration (here, in `package.json`)
 {
   "eslintConfig": {
     "extends": "eslint-config-postcss"
-  }
-}
-```
-
-### Old ES5
-
-```sh
-$ npm install --save-dev eslint-config-postcss @logux/eslint-config eslint-config-standard eslint-plugin-promise eslint-plugin-jest eslint-plugin-node eslint-plugin-es5 eslint-plugin-standard eslint-plugin-security eslint-plugin-import
-```
-
-To use only ES5 rule set:
-
-```json
-{
-  "eslintConfig": {
-    "extends": "eslint-config-postcss/es5"
   }
 }
 ```
