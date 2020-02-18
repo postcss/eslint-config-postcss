@@ -1,6 +1,9 @@
 # Change Log
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 4.0.0
+* Remove separated `es5` and `node` configs.
+
 ## 3.0.7
 * Use `@logux/eslint-config` instead of `eslint-config-logux`.
 
